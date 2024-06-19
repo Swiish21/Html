@@ -1,0 +1,53 @@
+/* We give the website a background by writing whic section we are styling (body {}) then we call the tag to display the background image (background-image: url) */
+body {
+    background-image: url(cyberpunk-ninja-katana-sci-fi-2k-wallpaper-uhdpaper.com-618@0@j.jpg);
+}
+/* This is for the large header text on top of the website (h1 in our html code) */
+h1 {
+    color: rgb(255, 30, 86);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 9999px;
+}
+.navigation{
+    width: 30%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+/* For the decorative box on top of the website */
+.Header {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9999px;
+    text-align: center;
+}
+/* we are editing the navlinks by targeting only the anchor tags, hence (> a{) */
+.navlinks > a{
+    color:rgb(255, 255, 255);
+    margin: 22px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    text-decoration: none;
+}
+h2 {
+    color: white;
+    margin: 30PX;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
